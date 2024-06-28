@@ -1,0 +1,153 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    padding: 50px;
+}
+
+@media screen and (max-width: 1377px) {
+    p {
+        margin: 50px;
+    }
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.2)
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.25em;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background: linear-gradient(rgba(232, 9, 9, 0.8), rgba(158, 232, 9, 0.8));
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    text-decoration: blue;
+}
+
+a:focus {
+    background-color: navy;
+    color: white;
+    outline: black;
+}
+
+a {
+    color: blue;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+fieldset {
+    background-color: #bac9ce;
+}
+
+legend {
+    background-color: #ffffff;
+}
+
+:required {
+    background-color:#F2A3BB;
+}
+
+.premier {
+    color: goldenrod
+}
+
+.deuxième {
+    color: silver
+}
+
+.troisième {
+    color: rgb(143, 87, 27)
+}
+
+.Les_grandes_joueuses_déchecs_actuels {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 15px rgb(29, 49, 63);
+    height: 50px;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+}
+
+.Les_grands_joueurs_déchecs_anciens {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 15px rgb(29, 49, 63);
+    height: 50px;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+}
+
+.Les_grandes_joueuses_déchecs_anciennes {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 15px rgb(29, 49, 63);
+    height: 50px;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+}
+
+.Les_grands_joueurs_déchecs_actuels {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 15px rgb(29, 49, 63);
+    height: 50px;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+}
+
+.pages_internes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 25px;
+}
